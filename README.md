@@ -1,3 +1,8 @@
+[![Codespaces][codespaces-svg]][codespaces-url]
+
+[codespaces-svg]: https://gitlab.com/rdodin/pics/-/wikis/uploads/80546a8c7cda8bb14aa799d26f55bd83/run-codespaces-btn.svg
+[codespaces-url]: https://codespaces.new/webboy71/netbox-nrx-clab?quickstart=1&devcontainer_path=.devcontainer%2Fdocker-in-docker%2Fdevcontainer.json
+
 # Netbox + NetReplica + Containerlab
 This lab aims to demonstrate how Containerlab can be used to create virtual replicas (Digital Twins) of your production network for lab use-cases.
 Included in this lab are all the resources needed to deploy Netbox with seed data, configuration to use NetReplica to create a Containerlab topology file that creates a digital twin of the "Pod 1" and higher network elements. There is also a python script and associated templates required to perform basic configuration management of this network.
